@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.infosys.FireandSecurity.Base.BaseTest">
+        <methods>
+          <include name="TestCase2_CreateNewAccount"/>
+          <include name="closeofBrowser"/>
+          <include name="Testcase01"/>
+          <include name="connectDB"/>
+          <include name="browserlaunch"/>
+          <include name="endTest"/>
+          <include name="closeDB"/>
+          <include name="closetest"/>
+          <include name="starttest"/>
+        </methods>
+      </class> <!-- com.infosys.FireandSecurity.Base.BaseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
