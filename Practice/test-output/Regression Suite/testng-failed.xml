@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.utc.testing.TestBrowser2">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="postcondtionsClass"/>
+          <include name="precondtionsClass"/>
+          <include name="browserclose"/>
+          <include name="Postcondtios"/>
+          <include name="FirstTest"/>
+          <include name="postcondtionstest"/>
+          <include name="Precondtios"/>
+          <include name="precondtionstest"/>
+        </methods>
+      </class> <!-- com.utc.testing.TestBrowser2 -->
+      <class name="com.utc.testing.TestBrowser3">
+        <methods>
+          <include name="Precondtios"/>
+          <include name="browserlaunch"/>
+          <include name="postcondtionsClass"/>
+          <include name="browserclose"/>
+          <include name="Postcondtios"/>
+          <include name="postcondtionstest"/>
+          <include name="precondtionstest"/>
+          <include name="Test1"/>
+          <include name="precondtionsClass"/>
+        </methods>
+      </class> <!-- com.utc.testing.TestBrowser3 -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test parallel="tests" name="chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.utc.testing.TestBrowser2">
+        <methods>
+          <include name="browserlaunch"/>
+          <include name="postcondtionsClass"/>
+          <include name="precondtionsClass"/>
+          <include name="browserclose"/>
+          <include name="Postcondtios"/>
+          <include name="FirstTest"/>
+          <include name="postcondtionstest"/>
+          <include name="Precondtios"/>
+          <include name="precondtionstest"/>
+        </methods>
+      </class> <!-- com.utc.testing.TestBrowser2 -->
+    </classes>
+  </test> <!-- chrome Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

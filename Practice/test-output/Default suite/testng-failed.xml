@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="p1.BaseTest">
+        <methods>
+          <include name="testCase01_Search"/>
+          <include name="closeTest"/>
+          <include name="getBrowser"/>
+          <include name="declareReports"/>
+          <include name="closeReports"/>
+        </methods>
+      </class> <!-- p1.BaseTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
