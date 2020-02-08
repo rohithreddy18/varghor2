@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.demoguru99.Guru99Bank.Base.BaseTest">
+        <methods>
+          <include name="Testcase01"/>
+          <include name="closeDB"/>
+          <include name="browserlaunch"/>
+          <include name="connectDB"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.demoguru99.Guru99Bank.Base.BaseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

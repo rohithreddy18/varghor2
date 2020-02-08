@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-14T04:51:03Z" name="Suite" finished-at="2019-10-14T04:51:29Z" duration-ms="25959">
+    <groups>
+    </groups>
+    <test started-at="2019-10-14T04:51:03Z" name="Test" finished-at="2019-10-14T04:51:29Z" duration-ms="25959">
+      <class name="com.demoguru99.Guru99Bank.Base.BaseTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.demoguru99.Guru99Bank.Base.BaseTest@1e66f1f5]" started-at="2019-10-14T10:21:03Z" name="connectDB" finished-at="2019-10-14T10:21:03Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:com.demoguru99.Guru99Bank.Base.BaseTest@1e66f1f5]" started-at="2019-10-14T10:21:03Z" name="browserlaunch" finished-at="2019-10-14T10:21:20Z" duration-ms="17358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="Testcase01()[pri:0, instance:com.demoguru99.Guru99Bank.Base.BaseTest@1e66f1f5]" started-at="2019-10-14T10:21:20Z" name="Testcase01" finished-at="2019-10-14T10:21:28Z" duration-ms="7642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase01 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.demoguru99.Guru99Bank.Base.BaseTest@1e66f1f5]" started-at="2019-10-14T10:21:28Z" name="closebrowser" finished-at="2019-10-14T10:21:29Z" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.demoguru99.Guru99Bank.Base.BaseTest@1e66f1f5]" started-at="2019-10-14T10:21:29Z" name="closeDB" finished-at="2019-10-14T10:21:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.demoguru99.Guru99Bank.Base.BaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
