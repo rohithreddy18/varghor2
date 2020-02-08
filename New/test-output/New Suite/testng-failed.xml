@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [New Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Chrome Test(failed)">
+    <classes>
+      <class name="Drivers.Test2">
+        <methods>
+          <include name="postTestConditions"/>
+          <include name="preTestConditions"/>
+          <include name="browserclose"/>
+          <include name="Login"/>
+          <include name="preClassConditions"/>
+          <include name="preConditions"/>
+          <include name="postClassConditions"/>
+          <include name="postConditions"/>
+          <include name="secondTest"/>
+        </methods>
+      </class> <!-- Drivers.Test2 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [New Suite] -->
